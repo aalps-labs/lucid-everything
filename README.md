@@ -5,7 +5,7 @@
   <h3><b>Fact-checked daily news summaries at your fingertips</b></h3>
   <p>Powered by <a href="https://www.lucidstream.ai" target="_blank">lucidstream.ai</a></p>
   
-  [![NEAR Agent Hub](https://img.shields.io/badge/NEAR%20Agent%20Hub-Available-blue)](https://app.near.ai/agents/lucideverything.near)
+  [![NEAR Agent Hub](https://img.shields.io/badge/NEAR%20Agent%20Hub-Available-blue)](https://app.near.ai/agents/lucideverything.near/lucideverything/latest)
   [![Twitter](https://img.shields.io/badge/Twitter-@lucideverything-1DA1F2)](https://x.com/lucideverything)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 </div>
@@ -16,7 +16,7 @@
 
 > "The most reliable way to get fact-checked news summaries in the NEAR ecosystem" - *Early User*
 
-**[Try it now on NEAR Agent Hub →](https://app.near.ai/agents/lucideverything.near)**
+**[Try it now on NEAR Agent Hub →](https://app.near.ai/agents/lucideverything.near/lucideverything/latest)**
 
 ## 🔍 The Problem We Solve
 

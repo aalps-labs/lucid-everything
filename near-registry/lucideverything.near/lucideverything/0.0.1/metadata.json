@@ -1,9 +1,9 @@
 {
   "name": "lucideverything",
   "version": "0.0.1",
-  "description": "Your Fleet of 24/7 News Copilot -- summonable via x.com/lucideverything",
+  "description": "AI-powered news summarization agent that provides concise, relevant news summaries on any topic with customizable timeframes and focus areas.",
   "category": "agent",
-  "tags": [],
+  "tags": ["news", "summarization", "information", "research"],
   "details": {
     "agent": {
       "defaults": {
@@ -19,8 +19,20 @@
       }
     },
     "env_vars": {
-      "LUCIDEVERYTHING_PRIVATE_KEY": "ed25519:3DvAvz5Hr5VL1bztz2V594MumdW3xKAVh4hfsVaXjKZfjYhVsADgasguVKbhFge9Knx6xTRWDpa8e8fT7hkiGfkc"
-    }
+      "LUCID_API_URL": "http://lucid-api.fly.dev"
+    },
+    "features": {
+      "api_integration": "Securely manages API keys for authenticated access to the Lucid Stream API",
+      "state_management": "Persists user preferences and API credentials across sessions",
+      "customizable_queries": "Supports topic filtering and custom time ranges for targeted news summaries",
+      "error_handling": "Robust error recovery with helpful user feedback",
+      "content_formatting": "Delivers well-structured, readable news summaries with metadata"
+    },
+    "usage_examples": [
+      "Latest tech news timespan: 48h",
+      "Updates on climate change topics: policy, technology, environment",
+      "Cryptocurrency market analysis topics: bitcoin, ethereum timespan: 7d"
+    ]
   },
   "show_entry": true
 }

@@ -1,0 +1,26 @@
+{
+  "name": "lucideverything",
+  "version": "0.0.1",
+  "description": "Your Fleet of 24/7 News Copilot -- summonable via x.com/lucideverything",
+  "category": "agent",
+  "tags": [],
+  "details": {
+    "agent": {
+      "defaults": {
+        "model": "llama-v3p1-70b-instruct",
+        "model_provider": "fireworks",
+        "model_temperature": 1.0,
+        "model_max_tokens": 16384
+      }
+    },
+    "triggers": {
+      "events" : {
+        "x_mentions": ["@lucideverything"]
+      }
+    },
+    "env_vars": {
+      "LUCIDEVERYTHING_PRIVATE_KEY": "ed25519:3DvAvz5Hr5VL1bztz2V594MumdW3xKAVh4hfsVaXjKZfjYhVsADgasguVKbhFge9Knx6xTRWDpa8e8fT7hkiGfkc"
+    }
+  },
+  "show_entry": true
+}
